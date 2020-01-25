@@ -1,18 +1,17 @@
 # Hello Internet in Python-Juypter Notebook  
 
 ## Install  
--Juypter Notebook (5+)
+-Juypter Notebook (5+)  
 -Python 3+  
 
 ## Setup aka Creating Socket
 Use the socket.socket(socket.AF_INET, socket.SOCK_STREAM) function to create a TCP socket in python. This will return a socket object.
 
 ## Connecting to Socket
+Use the socket.connect() function of the socket object to connect to a server. The function takes a tuple with the hostname (or IP address) and port.
 
 ## Sending & Receiving
+Use the socket.send() and socket.recv() functions in the socket object to transfer data.
 
 ## Cleanup  
-
-file with instructions on how to build and run your programs. If any extra software (compilers/libraries) need to be installed, include those in your instructions and provide a setup.sh script that installs anything necessary (you can assume Ubuntu is the OS).
-
-The README.md also must contain documentation about the key socket functions in the language of your choice. This does not need to be exhaustive, but should describe the basic usage and any special considerations.
+You should socket.close() a socket when you are done with it.
