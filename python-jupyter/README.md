@@ -3,6 +3,7 @@
 ## Install  
 -Juypter Notebook (5+)  
 -Python 3+  
+(might be helpful to have brew (Mac) to manage all of this)
 
 ## Setup aka Creating Socket
 Use the socket.socket(socket.AF_INET, socket.SOCK_STREAM) function to create a TCP socket in python. This will return a socket object.
