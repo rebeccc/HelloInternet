@@ -3,9 +3,10 @@
 ## Install  
 -Juypter Notebook (5+)  
 -Python 3+  
-(might be helpful to have brew (Mac) to manage all of this)
+(might be helpful to have brew (Mac) to manage all of this) but pip is part of setup.sh and does the same thing 
 
-## Setup aka Creating Socket
+## Setup & Creating Socket
+Run the setup.sh script to install & launch this exercise. 
 Use the socket.socket(socket.AF_INET, socket.SOCK_STREAM) function to create a TCP socket in python. This will return a socket object.
 
 ## Connecting to Socket
