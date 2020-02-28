@@ -1,5 +1,10 @@
 # Hello Internet in Python-Juypter Notebook  
 
+## Group Members
+-Tuhina Dasgupta
+-Linnea Dierksheide
+-Becky Shanley 
+
 ## Install  
 -Juypter Notebook (5+)  
 -Python 3+  
